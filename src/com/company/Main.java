@@ -18,7 +18,7 @@ public class Main {
         board.addShape(r,2);
         board.addShape(cr,2);
         board.addShape(cr,0);
-        board.addShape(tr,3);
+        board.addShape(tr,4);
         board.deleteShape(3);
         double areas=board.areaFigures();
         System.out.println("Площадь фигур на доске = "+areas);
